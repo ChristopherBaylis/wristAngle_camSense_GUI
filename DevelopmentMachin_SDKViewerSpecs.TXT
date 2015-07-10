@@ -1,0 +1,1215 @@
+
+======Page: System======
+
+    System Information
+        Processor
+            Vendor: Intel Corporation
+            Brand Name: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+            Threads: 4
+        Architecture: Intel64
+        OS Version: 6.2.9200 
+        Intel(R) HD Graphics Family
+            Driver Version: 10.18.14.4170
+    Windows Updates
+        Installed Windows Updated:
+            KB2899189_Microsoft-Windows-CameraCodec-Package
+            KB2959936
+            KB2894856
+            KB2919355
+            KB2920189
+            KB2931358
+            KB2931366
+            KB2938772
+            KB2939153
+            KB2949621
+            KB2954879
+            KB2958262
+            KB2958263
+            KB2961072
+            KB2962140
+            KB2965142
+            KB2965500
+            KB2966407
+            KB2967917
+            KB2968599
+            KB2971203
+            KB2973351
+            KB2975061
+            KB2976627
+            KB2976978
+            KB2977629
+            KB2977765
+            KB2978002
+            KB2978041
+            KB2978126
+            KB2979576
+            KB2981580
+            KB2987107
+            KB2989647
+            KB2989930
+            KB2990967
+            KB2994290
+            KB2998527
+            KB3000850
+            KB3001237
+            KB3003057
+            KB3003667
+            KB3004361
+            KB3004365
+            KB3004394
+            KB3006137
+            KB3008242
+            KB3011780
+            KB3012235
+            KB3012702
+            KB3013172
+            KB3013410
+            KB3013531
+            KB3013538
+            KB3014442
+            KB3015696
+            KB3016074
+            KB3018133
+            KB3019215
+            KB3019978
+            KB3020338
+            KB3020370
+            KB3021674
+            KB3021910
+            KB3022777
+            KB3023222
+            KB3023266
+            KB3024751
+            KB3024755
+            KB3025417
+            KB3027209
+            KB3029432
+            KB3029603
+            KB3029803
+            KB3030377
+            KB3030947
+            KB3031044
+            KB3032323
+            KB3032663
+            KB3033446
+            KB3033889
+            KB3034348
+            KB3035017
+            KB3035126
+            KB3035132
+            KB3035527
+            KB3035553
+            KB3036612
+            KB3037579
+            KB3037924
+            KB3038002
+            KB3038562
+            KB3039066
+            KB3041857
+            KB3042085
+            KB3042553
+            KB3043812
+            KB3044374
+            KB3044673
+            KB3045171
+            KB3045634
+            KB3045685
+            KB3045717
+            KB3045719
+            KB3045746
+            KB3045755
+            KB3045992
+            KB3045999
+            KB3046002
+            KB3046480
+            KB3046737
+            KB3047254
+            KB3047255
+            KB3048043
+            KB3048097
+            KB3048778
+            KB3050267
+            KB3050514
+            KB3054169
+            KB3054464
+            KB3055323
+            KB3055642
+            KB3055999
+            KB3057839
+            KB3058515
+            KB3059317
+            KB3061518
+            KB3062760
+            KB3065823
+            KB3068708
+            KB3074219
+        Missing Recommended Windows Updated:
+            KB2966804
+            NOTE: Not every KB applies to every machine.
+            This is just a suggestion list of KBs that are known to influence DCM behavior.
+    Registry Settings
+        HKEY_CURRENT_USER
+            Software\Intel\RSSDK
+                5.0.3.7777
+                    3fdd326a-5dea-4bff-92d6-27a61141a3a3
+                        [SZ] ShortcutsToolSDKInfo64: 1
+                    6f12ff7b-72af-4604-b06c-f11cd8879229
+                        [SZ] RSSDK_DIR: 1
+                        [SZ] ShortcutUninstall: 1
+                        [SZ] ShortcutsDevGuide: 1
+                        [SZ] ShortcutsToolCaptureViewer: 1
+                        [SZ] ShortcutsToolClipEditor: 1
+                        [SZ] ShortcutSampleBrowser: 1
+                        [SZ] ShortcutsSampleBinariesDirectory: 1
+                        [SZ] ShortcutsSampleSourcesDirectory: 1
+                        [SZ] ShortcutsFrameworkDirectory: 1
+                        [SZ] DesktopShortcut: 1
+                    a66440b4-63c1-47f3-bc98-3e33dfca9236
+                        [SZ] ShortcutsExtraDoc: 1
+                RealSenseInfo
+                    [SZ] ListeningPort: http://localhost:4182
+        HKEY_LOCAL_MACHINE(32-bit)
+            Software\Intel\RSSDK
+                Components
+                    ivcam
+                        [SZ] ProductCode: {54AA84B7-50B6-46CD-9968-61B3F0C3F543}
+                        [SZ] Version: 1.3.20.55679
+                    rsinfo_server
+                        [SZ] ProductCode: {89A98956-6ACD-4E4F-9376-D1ECC5BC51C4}
+                        [SZ] Version: 1.3.20.55679
+                    xcservice
+                        [SZ] ProductCode: {40455010-FB1F-4299-B2E5-8FC4EA9B79FA}
+                        [SZ] Version: 1.3.20.55679
+                v2
+                    Dispatch
+                        libpxccamera_dcm_f200.dll-IVXC
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 2 (0x2)
+                            [DW] iuid: 1129862729 (0x43585649)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 3 (0x3)
+                            [DW] merit: 301 (0x12d)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2214013520 (0x83f72a50)
+                            [DW] cuid2: 1229620535 (0x494a8537)
+                            [DW] cuid3: 1398426707 (0x535a4c53)
+                            [SZ] friendlyName: Intel(R) RealSense(TM) Depth Camera Manager
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSDCM\bin\win32\libpxccamera_dcm_f200.dll
+                            [MULTI_SZ] dependencies: IVCAM_DLL.dll;
+                v5
+                    [SZ] InstallDir: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\
+                    [SZ] ProductCode: {5F74000C-43A5-401F-A28E-B8D81DEC2D8A}
+                    [SZ] Version: 5.0.3.7777
+                    Components
+                        blob
+                            [SZ] ProductCode: {A9344448-C098-4E72-B794-8E175CD67BF2}
+                            [SZ] Version: 5.0.3.7777
+                        core
+                            [SZ] ProductCode: {5F74000C-43A5-401F-A28E-B8D81DEC2D8A}
+                            [SZ] Version: 5.0.3.7777
+                        emotion
+                            [SZ] ProductCode: {70C70EB6-768E-4B0D-AAAC-10449ECCA935}
+                            [SZ] Version: 5.0.3.7777
+                        emotion_data
+                            [SZ] ProductCode: {5A147F55-5A3E-4D62-BD61-1AB0F5BC8B1F}
+                            [SZ] Version: 5.0.3.7777
+                        enhanced_photography
+                            [SZ] ProductCode: {0D423EEA-9E1F-463D-9729-0282463EC4A6}
+                            [SZ] Version: 5.0.3.7777
+                        face3d
+                            [SZ] ProductCode: {0B6ABB3A-EDD3-47EA-8C14-C851CC77A582}
+                            [SZ] Version: 5.0.3.7777
+                        face3d_data
+                            [SZ] ProductCode: {527586FE-B7F0-4BE0-924F-348FA1D9E77D}
+                            [SZ] Version: 5.0.3.7777
+                        hand
+                            [SZ] ProductCode: {76791689-4347-42D6-9E14-147B4F99184D}
+                            [SZ] Version: 5.0.3.7777
+                        hand_data
+                            [SZ] ProductCode: {25420B52-9A33-4CB2-9E74-2728876C6FEB}
+                            [SZ] Version: 5.0.3.7777
+                        lanternrock
+                            [SZ] ProductCode: {C6F75E53-21B6-42E5-8926-E8553AAB63EA}
+                            [SZ] Version: 5.0.3.7777
+                        personify
+                            [SZ] ProductCode: {09D5783A-48AA-4199-810D-AD6CAAE25421}
+                            [SZ] Version: 5.0.3.7777
+                        scan3d
+                            [SZ] ProductCode: {D922BD92-8CF6-4EAD-A463-2AB9AD42D9CC}
+                            [SZ] Version: 5.0.3.7777
+                        scene_perception
+                            [SZ] ProductCode: {6405DBCE-6C6E-4828-9E7D-0FD50B4163DA}
+                            [SZ] Version: 5.0.3.7777
+                        touchlesscontroller
+                            [SZ] ProductCode: {8752473C-B764-4E1B-8A3B-6EC01DEBBBA4}
+                            [SZ] Version: 5.0.3.7777
+                        touchlesscontroller_data
+                            [SZ] ProductCode: {85B8B865-EC0D-40CC-94D9-1164886465A5}
+                            [SZ] Version: 5.0.3.7777
+                        track3d_metaio
+                            [SZ] ProductCode: {CCCB6F5F-F3FD-4171-A2E8-871E39A071EF}
+                            [SZ] Version: 5.0.3.7777
+                        utils
+                            [SZ] ProductCode: {BB6D96E8-0DC6-408C-B8C2-6C629E11ACBD}
+                            [SZ] Version: 5.0.3.7777
+                    Dispatch
+                        [SZ] Core: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcsession.dll
+                        libpxc3dscan.dll-SCD1
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 1024 (0x400)
+                            [DW] algorithm: 826360659 (0x31414353)
+                            [DW] iuid: 826557267 (0x31444353)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 826884947 (0x31494353)
+                            [SZ] friendlyName: 3D Capture, 3D Reconstruction
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxc3dscan.dll
+                            [MULTI_SZ] dependencies: fusionsdk.dll;
+                        libpxc3dseg.dll-SGD1
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 512 (0x200)
+                            [DW] algorithm: 826361683 (0x31414753)
+                            [DW] iuid: 826558291 (0x31444753)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 826885971 (0x31494753)
+                            [SZ] friendlyName: User Segmentation
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxc3dseg.dll
+                            [MULTI_SZ] dependencies: PERSONIFYRSSDK.DLL;
+                        libpxcblobmodule.dll-BMMD
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 16 (0x10)
+                            [DW] iuid: 1145916738 (0x444d4d42)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1145916738 (0x444d4d42)
+                            [SZ] friendlyName: Blob/Contour Extraction Module
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcblobmodule.dll
+                        libpxccamera_mf.dll-C_MF
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 2 (0x2)
+                            [DW] iuid: 1179475779 (0x464d5f43)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2214013520 (0x83f72a50)
+                            [SZ] friendlyName: Video Capture (Media Foundation)
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxccamera_mf.dll
+                        libpxccore.dll-CORE
+                            [DW] group: 2147483648 (0x80000000)
+                            [SZ] friendlyName: SDK Core Library
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxccore.dll
+                            [MULTI_SZ] dependencies: tbb.dll;
+                        libpxcemotion_fct.dll-EFCT
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 128 (0x80)
+                            [DW] algorithm: 0 (0x0)
+                            [DW] iuid: 1413695045 (0x54434645)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 1414417733 (0x544e4d45)
+                            [DW] cuid: 1314147653 (0x4e544d45)
+                            [SZ] friendlyName: FCT Emotion Recognition
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\\bin\win32\libpxcemotion_fct.dll
+                        libpxcenhanced_photo3d.dll-MSKU
+                            [DW] group: 8 (0x8)
+                            [DW] subgroup: 4096 (0x1000)
+                            [DW] iuid: 1380208709 (0x52445045)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 110 (0x6e)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1313427525 (0x4e495045)
+                            [DW] cuid2: 844514375 (0x32564447)
+                            [SZ] friendlyName: Enhanced Photography Module
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcenhancedphoto3d.dll
+                        libpxcface_idc.dll-FIDC
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 1 (0x1)
+                            [DW] iuid: 1128548678 (0x43444946)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 6 (0x6)
+                            [DW] merit: 120 (0x78)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1144209734 (0x44334146)
+                            [SZ] friendlyName: Face 2D/3D Analysis (Intel)
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\face3d_idc\libpxcface_idc.dll
+                            [MULTI_SZ] dependencies: libiomp5md.dll;
+                        libpxchandmodule.dll-HANN
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 16 (0x10)
+                            [DW] iuid: 1313751368 (0x4e4e4148)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1313751368 (0x4e4e4148)
+                            [SZ] friendlyName: Hand Module
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxchandmodule.dll
+                            [MULTI_SZ] dependencies: libpxchand_core.dll;libpxchand_track.dll;libpxchand_facade.dll;
+                        libpxclanternrock.dll-PHLR
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1380730960 (0x524c4850)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 200 (0xc8)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1296582736 (0x4d484850)
+                            [SZ] friendlyName: Telemetry LR
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxclanternrock.dll
+                            [MULTI_SZ] dependencies: intel-ias2.dll;
+                        libpxclog.dll-LCXX
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1482179404 (0x5858434c)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 946920232 (0x3870db28)
+                            [SZ] friendlyName: Logger
+                            [SZ] path: C:\Program Files (x86)\Intel\RSSDK\bin\win32\libpxclog.dll
+                        libpxcmaskutils.dll-1-MSKU
+                            [DW] group: 16 (0x10)
+                            [DW] subgroup: 1430999885 (0x554b534d)
+                            [DW] iuid: 1430999885 (0x554b534d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1398034258 (0x53544f52)
+                            [DW] cuid2: 1330468179 (0x4f4d5553)
+                            [DW] cuid3: 1380143184 (0x52435050)
+                            [SZ] friendlyName: Mask Programming Utility (1)
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcmaskutils.dll
+                        libpxcmaskutils.dll-2-MSKU
+                            [DW] group: 16 (0x10)
+                            [DW] subgroup: 1430999885 (0x554b534d)
+                            [DW] iuid: 38490957 (0x24b534d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2566661203 (0x98fc2453)
+                            [DW] cuid2: 2770535868 (0xa52305bc)
+                            [DW] cuid3: 1330467652 (0x4f4d5344)
+                            [SZ] friendlyName: Mask Programming Utility (2)
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcmaskutils.dll
+                        libpxcmfaudio.dll-ADSR
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 1 (0x1)
+                            [DW] iuid: 1381188673 (0x52534441)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3628176675 (0xd8419523)
+                            [DW] cuid2: 541644707 (0x2048d7a3)
+                            [SZ] friendlyName: Audio Source (Media Foundation)
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcmfaudio.dll
+                        libpxcpipelineutils.dll-CPUT
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 1414877251 (0x54555043)
+                            [DW] iuid: 1414877251 (0x54555043)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3633390405 (0xd8912345)
+                            [SZ] friendlyName: Capture Programming Utility
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcpipelineutils.dll
+                        libpxcpipelineutils.dll-PPUT
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 1414877264 (0x54555050)
+                            [DW] iuid: 1414877264 (0x54555050)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3633660705 (0xd8954321)
+                            [SZ] friendlyName: Pipeline Programming Utility
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcpipelineutils.dll
+                        libpxcpowermanager.dll-PMGG
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 3 (0x3)
+                            [DW] iuid: 1195855184 (0x47474d50)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 201 (0xc9)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1129142096 (0x434d5750)
+                            [DW] cuid2: 1347245904 (0x504d5750)
+                            [DW] cuid3: 1196250960 (0x474d5750)
+                            [SZ] friendlyName: Power Manager
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcpowermanager.dll
+                        libpxcsceneperception.dll-SCNP
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 2048 (0x800)
+                            [DW] iuid: 1347306323 (0x504e4353)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1347306323 (0x504e4353)
+                            [SZ] friendlyName: Scene Perception
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxcsceneperception.dll
+                            [MULTI_SZ] dependencies: pthread_dll_vc110.dll;metaioTracker.dll;
+                        libpxctouchlesscontroller.dll-FLKS
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1397443654 (0x534b4c46)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1397443654 (0x534b4c46)
+                            [SZ] friendlyName: TouchlessController
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxctouchlesscontroller.dll
+                            [MULTI_SZ] dependencies: HANDANALYSISEXTENSIONS.DLL;
+                        libpxctrack3d_metaio.dll-MTTK
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 256 (0x100)
+                            [DW] iuid: 1263817805 (0x4b54544d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 541676621 (0x2049544d)
+                            [DW] cuid: 1380667988 (0x524b5254)
+                            [SZ] friendlyName: Metaio Object Tracking and Recognition
+                            [SZ] path: C:\Program Files (x86)\Common Files\Intel\RSSDK\v5\bin\win32\libpxctrack3d_metaio.dll
+                            [MULTI_SZ] dependencies: pthread.dll;METAIOTRACKV2.DLL;
+            Software\Intel\RSSDK_DEV
+                [SZ] ProductCode: {6F12FF7B-72AF-4604-B06C-F11CD8879229}
+                [SZ] Version: 5.0.3.7777
+                Components
+                    debugging
+                        [SZ] ProductCode: {3FDD326A-5DEA-4BFF-92D6-27A61141A3A3}
+                        [SZ] Version: 5.0.3.7777
+                    extradoc
+                        [SZ] ProductCode: {A66440B4-63C1-47F3-BC98-3E33DFCA9236}
+                        [SZ] Version: 5.0.3.7777
+                    metaio_toolbox
+                        [SZ] ProductCode: {5E7AFC71-6C9A-48AF-847A-B6E96489A0CD}
+                        [SZ] Version: 5.0.3.7777
+                    redist
+                        [SZ] ProductCode: {F47FEAD6-A963-4441-869F-D11A918B571F}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_3dscan
+                        [SZ] ProductCode: {15B6D334-9A06-4370-8127-24F6FDD92155}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_3dseg
+                        [SZ] ProductCode: {3C409B67-D98A-4EF4-8064-F99536C27923}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_augmented_reality
+                        [SZ] ProductCode: {8CEA2902-22CE-4C4F-A67A-7B4EFCB3CCA7}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_blob_viewer
+                        [SZ] ProductCode: {8CED3C96-C585-44BD-AD5F-FF76BB536E4F}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_camera_viewer
+                        [SZ] ProductCode: {120CA561-AF26-44B3-8930-E552148A0A2C}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_depthblendep
+                        [SZ] ProductCode: {72BF16CB-F38E-40C7-944B-C91022C1319C}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_emotion_viewer
+                        [SZ] ProductCode: {03203430-FCF6-4FE8-BA09-EB03F21665EA}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_enhanced_photography
+                        [SZ] ProductCode: {1723BA57-CD31-4492-9255-CDAEE2132388}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_face_tracking
+                        [SZ] ProductCode: {DC1A683A-9EB1-474C-AEF8-E59706411F8F}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_hands_3DViewer
+                        [SZ] ProductCode: {9377529D-D3FD-489B-A06F-C4A187D050D6}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_hands_console
+                        [SZ] ProductCode: {D63854F1-AE2B-4251-8104-E95282E0358B}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_hands_viewer
+                        [SZ] ProductCode: {3A7039AD-5634-49F1-9204-CFDA5D1DC85C}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_measurement
+                        [SZ] ProductCode: {591A550C-DEBA-4D37-8AF9-4C0506D6D2DA}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_object_tracking
+                        [SZ] ProductCode: {493627EC-236D-461E-B320-2AE800E088C0}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_projection
+                        [SZ] ProductCode: {915AB1D6-7080-48DD-9ACA-3F16325B5528}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_raw_streams
+                        [SZ] ProductCode: {8353C816-57A7-4A61-BCFB-2E0C82979BFD}
+                        [SZ] Version: 5.0.3.7777
+                    sample_cpp_scene_perception
+                        [SZ] ProductCode: {E9EAAFD2-5048-4901-A97B-3589417924BE}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_3dscan
+                        [SZ] ProductCode: {11C95E37-3DFE-46BA-9607-4E0E442BB6E5}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_3dseg
+                        [SZ] ProductCode: {1A22BF89-520D-4C3B-9835-5D5C30232711}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_blob_viewer
+                        [SZ] ProductCode: {D7C96E26-5A03-493D-ADF9-93EE59EAB7A7}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_emotion_viewer
+                        [SZ] ProductCode: {FE03DB87-DEE5-434D-AB48-72D61BCF9861}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_face_tracking
+                        [SZ] ProductCode: {23FDBBFB-F88F-4793-92E8-BEE54D43CCF9}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_hands_viewer
+                        [SZ] ProductCode: {B09E656F-265E-421B-9CE9-B80B2BE10FE1}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_iq_sample_tool
+                        [SZ] ProductCode: {6B5B4DBB-1363-47AC-934E-20C86ADB48C3}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_object_tracking
+                        [SZ] ProductCode: {1F7BC9D1-9750-462E-99DC-90B88393FD21}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_raw_streams
+                        [SZ] ProductCode: {F9B2032E-B5E3-43FA-9078-D8C162C59913}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_touchless_list_box
+                        [SZ] ProductCode: {5B6D86CA-EEFF-4415-A596-4CB6EF6E3139}
+                        [SZ] Version: 5.0.3.7777
+                    sample_csharp_touchless_viewer
+                        [SZ] ProductCode: {3D9B0B25-1A9C-41E3-9A0A-5E31125722AB}
+                        [SZ] Version: 5.0.3.7777
+                    sample_java_camera_viewer
+                        [SZ] ProductCode: {E36B40B1-DEC7-42E0-8FD0-411F98CAB9E5}
+                        [SZ] Version: 5.0.3.7777
+                    sample_java_face_tracking
+                        [SZ] ProductCode: {87C31ADF-27B3-46F2-81AF-2F6023EC44EE}
+                        [SZ] Version: 5.0.3.7777
+                    sample_java_hands_viewer
+                        [SZ] ProductCode: {AF0D3B63-6735-4BBF-B8DC-A011C6FD7B22}
+                        [SZ] Version: 5.0.3.7777
+                    sample_processing_hand_tracking
+                        [SZ] ProductCode: {2CE21F88-161D-4E9C-B904-D392A4BD4B40}
+                        [SZ] Version: 5.0.3.7777
+                    sample_unity_face_animation
+                        [SZ] ProductCode: {D4CCFB60-391C-4B3A-BFFB-93EE933AE263}
+                        [SZ] Version: 5.0.3.7777
+                    sample_unity_hands_animation
+                        [SZ] ProductCode: {9395CDAD-D76D-4A50-8A0E-FBB63077AA18}
+                        [SZ] Version: 5.0.3.7777
+                    sample_unity_nine_cubes
+                        [SZ] ProductCode: {15545455-E0CB-44DB-BC31-77EB4A9882DD}
+                        [SZ] Version: 5.0.3.7777
+                    sample_unity_scene_perception
+                        [SZ] ProductCode: {5E68E805-E576-4986-82DD-40DE32E428A5}
+                        [SZ] Version: 5.0.3.7777
+                    unity_toolkit
+                        [SZ] ProductCode: {8C11871F-7E55-4289-B0AA-EA32754A5758}
+                        [SZ] Version: 5.0.3.7777
+        HKEY_LOCAL_MACHINE(64-bit)
+            Software\Intel\RSSDK
+                Components
+                    acpidriver
+                        [SZ] ProductCode: {36A5797B-8134-4297-BAC9-25795E291DA8}
+                        [SZ] Version: 1.0.13.11813
+                    ivcam
+                        [SZ] ProductCode: {27921DCF-F2A3-4299-BCE4-6C32261FB2F9}
+                        [SZ] Version: 1.3.20.55679
+                    lbdriver_win8
+                        [SZ] ProductCode: {70318799-FD70-4E17-B416-BBE22A482FB9}
+                        [SZ] Version: 1.3.20.55679
+                    xcservice
+                        [SZ] ProductCode: {6936476C-0351-43EA-9B41-877BFCCE54FA}
+                        [SZ] Version: 1.3.20.55679
+                v2
+                    Dispatch
+                        libpxccamera_dcm_f200.dll-IVXC
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 2 (0x2)
+                            [DW] iuid: 1129862729 (0x43585649)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 3 (0x3)
+                            [DW] merit: 301 (0x12d)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2214013520 (0x83f72a50)
+                            [DW] cuid2: 1229620535 (0x494a8537)
+                            [DW] cuid3: 1398426707 (0x535a4c53)
+                            [SZ] friendlyName: Intel(R) RealSense(TM) Depth Camera Manager
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSDCM\bin\x64\libpxccamera_dcm_f200.dll
+                            [MULTI_SZ] dependencies: IVCAM_DLL.dll;
+                v5
+                    [SZ] InstallDir: C:\Program Files\Common Files\Intel\RSSDK\v5\
+                    [SZ] ProductCode: {0BBAF5FC-E5BA-4225-A9C7-44268F93188C}
+                    [SZ] Version: 5.0.3.7777
+                    Components
+                        blob
+                            [SZ] ProductCode: {00580976-1F9B-41A3-A404-C2DE381EB4F5}
+                            [SZ] Version: 5.0.3.7777
+                        core
+                            [SZ] ProductCode: {0BBAF5FC-E5BA-4225-A9C7-44268F93188C}
+                            [SZ] Version: 5.0.3.7777
+                        emotion
+                            [SZ] ProductCode: {5DC44FF2-CE35-4D32-A895-26ADE4FA990D}
+                            [SZ] Version: 5.0.3.7777
+                        enhanced_photography
+                            [SZ] ProductCode: {26CE691C-A70C-4152-BA67-3CF9151AE206}
+                            [SZ] Version: 5.0.3.7777
+                        face3d
+                            [SZ] ProductCode: {9F22ED00-529B-4FC5-856D-08951289A8F0}
+                            [SZ] Version: 5.0.3.7777
+                        hand
+                            [SZ] ProductCode: {4A985C80-73ED-4339-BC1C-AE95086238EC}
+                            [SZ] Version: 5.0.3.7777
+                        lanternrock
+                            [SZ] ProductCode: {97FCD2BE-9EF9-4922-A51E-F8917EAA7EC1}
+                            [SZ] Version: 5.0.3.7777
+                        personify
+                            [SZ] ProductCode: {5F9A6A32-78F1-469B-AA6A-28E777D31E98}
+                            [SZ] Version: 5.0.3.7777
+                        scan3d
+                            [SZ] ProductCode: {5C8AFE0D-8AB3-481D-8ADF-43AAA132129E}
+                            [SZ] Version: 5.0.3.7777
+                        scene_perception
+                            [SZ] ProductCode: {92FE1910-EC11-45F6-9D9D-C68F6C48FA79}
+                            [SZ] Version: 5.0.3.7777
+                        touchlesscontroller
+                            [SZ] ProductCode: {4DFF5260-41B3-4CAA-9BF0-D8623CC4178F}
+                            [SZ] Version: 5.0.3.7777
+                        track3d_metaio
+                            [SZ] ProductCode: {15115C08-0F31-4275-8F33-3CC4196046BB}
+                            [SZ] Version: 5.0.3.7777
+                        utils
+                            [SZ] ProductCode: {5A882041-7A9E-4B55-A20F-D2009D978F30}
+                            [SZ] Version: 5.0.3.7777
+                    Dispatch
+                        [SZ] Core: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcsession.dll
+                        libpxc3dscan.dll-SCD1
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 1024 (0x400)
+                            [DW] algorithm: 826360659 (0x31414353)
+                            [DW] iuid: 826557267 (0x31444353)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 826884947 (0x31494353)
+                            [SZ] friendlyName: 3D Capture, 3D Reconstruction
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxc3dscan.dll
+                            [MULTI_SZ] dependencies: fusionsdk.dll;
+                        libpxc3dseg.dll-SGD1
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 512 (0x200)
+                            [DW] algorithm: 826361683 (0x31414753)
+                            [DW] iuid: 826558291 (0x31444753)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 826885971 (0x31494753)
+                            [SZ] friendlyName: User Segmentation
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxc3dseg.dll
+                            [MULTI_SZ] dependencies: PERSONIFYRSSDK.DLL;
+                        libpxcblobmodule.dll-BMMD
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 16 (0x10)
+                            [DW] iuid: 1145916738 (0x444d4d42)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1145916738 (0x444d4d42)
+                            [SZ] friendlyName: Blob/Contour Extraction Module
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcblobmodule.dll
+                        libpxccamera_mf.dll-C_MF
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 2 (0x2)
+                            [DW] iuid: 1179475779 (0x464d5f43)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2214013520 (0x83f72a50)
+                            [SZ] friendlyName: Video Capture (Media Foundation)
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxccamera_mf.dll
+                        libpxccore.dll-CORE
+                            [DW] group: 2147483648 (0x80000000)
+                            [SZ] friendlyName: SDK Core Library
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxccore.dll
+                            [MULTI_SZ] dependencies: tbb.dll;
+                        libpxcemotion_fct.dll-EFCT
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 128 (0x80)
+                            [DW] algorithm: 0 (0x0)
+                            [DW] iuid: 1413695045 (0x54434645)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 1414417733 (0x544e4d45)
+                            [DW] cuid: 1314147653 (0x4e544d45)
+                            [SZ] friendlyName: FCT Emotion Recognition
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\\bin\x64\libpxcemotion_fct.dll
+                        libpxcenhanced_photo3d.dll-MSKU
+                            [DW] group: 8 (0x8)
+                            [DW] subgroup: 4096 (0x1000)
+                            [DW] iuid: 1380208709 (0x52445045)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 110 (0x6e)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1313427525 (0x4e495045)
+                            [DW] cuid2: 844514375 (0x32564447)
+                            [SZ] friendlyName: Enhanced Photography Module
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcenhancedphoto3d.dll
+                        libpxcface_idc.dll-FIDC
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 1 (0x1)
+                            [DW] iuid: 1128548678 (0x43444946)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 6 (0x6)
+                            [DW] merit: 120 (0x78)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1144209734 (0x44334146)
+                            [SZ] friendlyName: Face 2D/3D Analysis (Intel)
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\face3d_idc\libpxcface_idc.dll
+                            [MULTI_SZ] dependencies: libiomp5md.dll;
+                        libpxchandmodule.dll-HANN
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 16 (0x10)
+                            [DW] iuid: 1313751368 (0x4e4e4148)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1313751368 (0x4e4e4148)
+                            [SZ] friendlyName: Hand Module
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxchandmodule.dll
+                            [MULTI_SZ] dependencies: libpxchand_core.dll;libpxchand_track.dll;libpxchand_facade.dll;
+                        libpxclanternrock.dll-PHLR
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1380730960 (0x524c4850)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 200 (0xc8)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1296582736 (0x4d484850)
+                            [SZ] friendlyName: Telemetry LR
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxclanternrock.dll
+                            [MULTI_SZ] dependencies: intel-ias2.dll;
+                        libpxclog.dll-LCXX
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1482179404 (0x5858434c)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 100 (0x64)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 946920232 (0x3870db28)
+                            [SZ] friendlyName: Logger
+                            [SZ] path: C:\Program Files (x86)\Intel\RSSDK\bin\x64\libpxclog.dll
+                        libpxcmaskutils.dll-1-MSKU
+                            [DW] group: 16 (0x10)
+                            [DW] subgroup: 1430999885 (0x554b534d)
+                            [DW] iuid: 1430999885 (0x554b534d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1398034258 (0x53544f52)
+                            [DW] cuid2: 1330468179 (0x4f4d5553)
+                            [DW] cuid3: 1380143184 (0x52435050)
+                            [SZ] friendlyName: Mask Programming Utility (1)
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcmaskutils.dll
+                        libpxcmaskutils.dll-2-MSKU
+                            [DW] group: 16 (0x10)
+                            [DW] subgroup: 1430999885 (0x554b534d)
+                            [DW] iuid: 38490957 (0x24b534d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 2566661203 (0x98fc2453)
+                            [DW] cuid2: 2770535868 (0xa52305bc)
+                            [DW] cuid3: 1330467652 (0x4f4d5344)
+                            [SZ] friendlyName: Mask Programming Utility (2)
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcmaskutils.dll
+                        libpxcmfaudio.dll-ADSR
+                            [DW] group: 4 (0x4)
+                            [DW] subgroup: 1 (0x1)
+                            [DW] iuid: 1381188673 (0x52534441)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3628176675 (0xd8419523)
+                            [DW] cuid2: 541644707 (0x2048d7a3)
+                            [SZ] friendlyName: Audio Source (Media Foundation)
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcmfaudio.dll
+                        libpxcpipelineutils.dll-CPUT
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 1414877251 (0x54555043)
+                            [DW] iuid: 1414877251 (0x54555043)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3633390405 (0xd8912345)
+                            [SZ] friendlyName: Capture Programming Utility
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcpipelineutils.dll
+                        libpxcpipelineutils.dll-PPUT
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 1414877264 (0x54555050)
+                            [DW] iuid: 1414877264 (0x54555050)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 3633660705 (0xd8954321)
+                            [SZ] friendlyName: Pipeline Programming Utility
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcpipelineutils.dll
+                        libpxcpowermanager.dll-PMGG
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] subgroup: 3 (0x3)
+                            [DW] iuid: 1195855184 (0x47474d50)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] merit: 201 (0xc9)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1129142096 (0x434d5750)
+                            [DW] cuid2: 1347245904 (0x504d5750)
+                            [DW] cuid3: 1196250960 (0x474d5750)
+                            [SZ] friendlyName: Power Manager
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcpowermanager.dll
+                        libpxcsceneperception.dll-SCNP
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 2048 (0x800)
+                            [DW] iuid: 1347306323 (0x504e4353)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1347306323 (0x504e4353)
+                            [SZ] friendlyName: Scene Perception
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxcsceneperception.dll
+                            [MULTI_SZ] dependencies: pthread_dll_64_vc110.dll;metaioTracker_64.dll;
+                        libpxctouchlesscontroller.dll-FLKS
+                            [DW] group: 2147483648 (0x80000000)
+                            [DW] iuid: 1397443654 (0x534b4c46)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 32902 (0x8086)
+                            [DW] cuid: 1397443654 (0x534b4c46)
+                            [SZ] friendlyName: TouchlessController
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxctouchlesscontroller.dll
+                            [MULTI_SZ] dependencies: HANDANALYSISEXTENSIONS.DLL;
+                        libpxctrack3d_metaio.dll-MTTK
+                            [DW] group: 1 (0x1)
+                            [DW] subgroup: 256 (0x100)
+                            [DW] iuid: 1263817805 (0x4b54544d)
+                            [DW] versionMajor: 1 (0x1)
+                            [DW] versionMinor: 1 (0x1)
+                            [DW] merit: 101 (0x65)
+                            [DW] vendor: 541676621 (0x2049544d)
+                            [DW] cuid: 1380667988 (0x524b5254)
+                            [SZ] friendlyName: Metaio Object Tracking and Recognition
+                            [SZ] path: C:\Program Files\Common Files\Intel\RSSDK\v5\bin\x64\libpxctrack3d_metaio.dll
+                            [MULTI_SZ] dependencies: pthread.dll;METAIOTRACKV2.DLL;
+    Environment Variables
+        PATH
+            C:\ProgramData\Oracle\Java\javapath
+            C:\Windows\system32
+            C:\Windows
+            C:\Windows\System32\Wbem
+            C:\Windows\System32\WindowsPowerShell\v1.0\
+            C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+            C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+        RSSDK_DIR
+            C:\Program Files (x86)\Intel\RSSDK\
+
+======Page: Camera======
+
+    USB Connection
+        USB xHCI Compliant Host Controller
+            [ VendorID: 8086 ]
+            [ DeviceID: 9C31 ]
+            [ SubSysID: 81E1025 ]
+            [ Revision: 04 ]
+            RootHub
+                [Port1] Microsoft Hardware USB Mouse
+                    [ Bus Speed: Low Speed ]
+                    [ idVendor: 045E ] -> Microsoft 
+                    [ idProduct: 00CB ] -> Microsoft Basic Optical Mouse v2.0 
+                [Port2] USB Composite Device
+                    [ Bus Speed: Low Speed ]
+                    [ idVendor: 045E ] -> Microsoft
+                    [ idProduct: 0750 ] -> Wired Keyboard 600
+                [Port4] : Generic USB Hub
+                    [Port2] USB Composite Device
+                        [ Bus Speed: Full Speed ]
+                        [ idVendor: 041E ] -> Creative Technology Ltd
+                        [ idProduct: 4099 ] -> Creative VF0800
+                        [ SerialNumber: 201503231796 ]
+                [Port13] : Generic SuperSpeed USB Hub
+                    [Port1] USB Composite Device
+                        [ Bus Speed: Super Speed ]
+                        [ idVendor: 8086 ]
+                        [ idProduct: 0A66 ]
+        Intel(R) 8 Series USB Enhanced Host Controller #1 - 9C26
+            [ VendorID: 8086 ]
+            [ DeviceID: 9C26 ]
+            [ SubSysID: 81E1025 ]
+            [ Revision: 04 ]
+            RootHub
+                [Port1] : Generic USB Hub
+                    [Port6] USB Composite Device
+                        [ Bus Speed: High Speed ]
+                        [ idVendor: 1BCF ]
+                        [ idProduct: 2C57 ]
+                    [Port7] Generic Bluetooth Adapter
+                        [ Bus Speed: Full Speed ]
+                        [ idVendor: 8087 ]
+                        [ idProduct: 07DC ]
+                    [Port8] EgisTec ES603
+                        [ Bus Speed: Full Speed ]
+                        [ idVendor: 1C7A ] -> EgisTec
+                        [ idProduct: 0603 ] -> EgisTec_ES603
+    Intel(R) RealSense(TM) Depth Camera Manager Service
+        Location: C:\Program Files (x86)\Common Files\Intel\RSDCM\bin\win32\RealSenseDCM.exe
+        Version: 1.3.20.55679
+    Generic
+        Video Devices
+            Device: 1 (0x0001)
+                FriendlyName: Intel(R) RealSense(TM) 3D Camera Virtual Driver
+                SymbolicLink: \\?\root#image#0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+                Stream: 1 (0x0001)
+                    YUY2 320x180 60.0-60.0fps (pitch 640)
+                    YUY2 320x240 60.0-60.0fps (pitch 640)
+                    YUY2 424x240 60.0-60.0fps (pitch 848)
+                    YUY2 640x360 60.0-60.0fps (pitch 1280)
+                    YUY2 640x480 60.0-60.0fps (pitch 1280)
+                    YUY2 848x480 60.0-60.0fps (pitch 1696)
+                    YUY2 960x540 60.0-60.0fps (pitch 1920)
+                    YUY2 320x180 30.0-30.0fps (pitch 640)
+                    YUY2 320x240 30.0-30.0fps (pitch 640)
+                    YUY2 424x240 30.0-30.0fps (pitch 848)
+                    YUY2 640x360 30.0-30.0fps (pitch 1280)
+                    YUY2 640x480 30.0-30.0fps (pitch 1280)
+                    YUY2 848x480 30.0-30.0fps (pitch 1696)
+                    YUY2 960x540 30.0-30.0fps (pitch 1920)
+                    YUY2 1280x720 30.0-30.0fps (pitch 2560)
+                    YUY2 1920x1080 30.0-30.0fps (pitch 3840)
+            Device: 2 (0x0002)
+                FriendlyName: HD WebCam
+                SymbolicLink: \\?\usb#vid_1bcf&pid_2c57&mi_00#7&8ce6b57&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+                Physical Location
+                    Orientation: Front
+                    Vertical Offset: 200 mm
+                    Horizontal Offset: 160 mm
+                Stream: 1 (0x0001)
+                    YUY2 640x480 30.0-30.0fps (pitch 1280)
+                    YUY2 160x120 30.0-30.0fps (pitch 320)
+                    YUY2 176x144 30.0-30.0fps (pitch 352)
+                    YUY2 320x180 30.0-30.0fps (pitch 640)
+                    YUY2 320x240 30.0-30.0fps (pitch 640)
+                    YUY2 424x240 30.0-30.0fps (pitch 848)
+                    YUY2 352x288 30.0-30.0fps (pitch 704)
+                    YUY2 640x360 30.0-30.0fps (pitch 1280)
+                    YUY2 848x480 20.0-20.0fps (pitch 1696)
+                    YUY2 960x540 15.0-15.0fps (pitch 1920)
+                    YUY2 1280x720 10.0-10.0fps (pitch 2560)
+                    MJPG 640x480 30.0-30.0fps
+                    MJPG 160x120 30.0-30.0fps
+                    MJPG 176x144 30.0-30.0fps
+                    MJPG 320x180 30.0-30.0fps
+                    MJPG 320x240 30.0-30.0fps
+                    MJPG 424x240 30.0-30.0fps
+                    MJPG 352x288 30.0-30.0fps
+                    MJPG 640x360 30.0-30.0fps
+                    MJPG 848x480 30.0-30.0fps
+                    MJPG 960x540 30.0-30.0fps
+                    MJPG 1280x720 30.0-30.0fps
+            Device: 3 (0x0003)
+                FriendlyName: Intel(R) RealSense(TM) 3D Camera (Front F200) RGB
+                SymbolicLink: \\?\usb#vid_8086&pid_0a66&mi_00#7&163d404a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+                Stream: 1 (0x0001)
+                    YUY2 320x180 60.0-60.0fps (pitch 640)
+                    YUY2 320x180 30.0-30.0fps (pitch 640)
+                    YUY2 320x180 15.0-15.0fps (pitch 640)
+                    YUY2 320x180 5.0-5.0fps (pitch 640)
+                    YUY2 320x180 2.0-2.0fps (pitch 640)
+                    YUY2 320x240 60.0-60.0fps (pitch 640)
+                    YUY2 320x240 30.0-30.0fps (pitch 640)
+                    YUY2 320x240 15.0-15.0fps (pitch 640)
+                    YUY2 320x240 5.0-5.0fps (pitch 640)
+                    YUY2 320x240 2.0-2.0fps (pitch 640)
+                    YUY2 424x240 60.0-60.0fps (pitch 848)
+                    YUY2 424x240 30.0-30.0fps (pitch 848)
+                    YUY2 424x240 15.0-15.0fps (pitch 848)
+                    YUY2 424x240 5.0-5.0fps (pitch 848)
+                    YUY2 424x240 2.0-2.0fps (pitch 848)
+                    YUY2 640x360 60.0-60.0fps (pitch 1280)
+                    YUY2 640x360 30.0-30.0fps (pitch 1280)
+                    YUY2 640x360 15.0-15.0fps (pitch 1280)
+                    YUY2 640x360 5.0-5.0fps (pitch 1280)
+                    YUY2 640x360 2.0-2.0fps (pitch 1280)
+                    YUY2 640x480 60.0-60.0fps (pitch 1280)
+                    YUY2 640x480 30.0-30.0fps (pitch 1280)
+                    YUY2 640x480 15.0-15.0fps (pitch 1280)
+                    YUY2 640x480 5.0-5.0fps (pitch 1280)
+                    YUY2 640x480 2.0-2.0fps (pitch 1280)
+                    YUY2 848x480 60.0-60.0fps (pitch 1696)
+                    YUY2 848x480 30.0-30.0fps (pitch 1696)
+                    YUY2 848x480 15.0-15.0fps (pitch 1696)
+                    YUY2 848x480 5.0-5.0fps (pitch 1696)
+                    YUY2 848x480 2.0-2.0fps (pitch 1696)
+                    YUY2 960x540 60.0-60.0fps (pitch 1920)
+                    YUY2 960x540 30.0-30.0fps (pitch 1920)
+                    YUY2 960x540 15.0-15.0fps (pitch 1920)
+                    YUY2 960x540 5.0-5.0fps (pitch 1920)
+                    YUY2 960x540 2.0-2.0fps (pitch 1920)
+                    YUY2 1280x720 30.0-30.0fps (pitch 2560)
+                    YUY2 1280x720 15.0-15.0fps (pitch 2560)
+                    YUY2 1280x720 5.0-5.0fps (pitch 2560)
+                    YUY2 1280x720 2.0-2.0fps (pitch 2560)
+                    YUY2 1920x1080 30.0-30.0fps (pitch 3840)
+                    YUY2 1920x1080 15.0-15.0fps (pitch 3840)
+                    YUY2 1920x1080 5.0-5.0fps (pitch 3840)
+                    YUY2 1920x1080 2.0-2.0fps (pitch 3840)
+            Device: 4 (0x0004)
+                FriendlyName: Intel(R) RealSense(TM) 3D Camera (Front F200) Depth
+                SymbolicLink: \\?\usb#vid_8086&pid_0a66&mi_02#7&163d404a&0&0002#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+                Stream: 1 (0x0001)
+                    YUY2 640x480 30.0-30.0fps (pitch 1280)
+                    YUY2 640x240 30.0-30.0fps (pitch 1280)
+                    INVZ 640x480 60.0-60.0fps
+                    INVZ 640x480 30.0-30.0fps
+                    INVZ 640x480 15.0-15.0fps
+                    INVZ 640x480 5.0-5.0fps
+                    INVZ 640x480 2.0-2.0fps
+                    INVZ 640x240 110.0-110.0fps
+                    INVZ 640x240 60.0-60.0fps
+                    INVZ 640x240 30.0-30.0fps
+                    INVZ 640x240 15.0-15.0fps
+                    INVZ 640x240 5.0-5.0fps
+                    INVZ 640x240 2.0-2.0fps
+                    INZI 640x480 60.0-60.0fps
+                    INZI 640x480 30.0-30.0fps
+                    INZI 640x480 15.0-15.0fps
+                    INZI 640x480 5.0-5.0fps
+                    INZI 640x480 2.0-2.0fps
+                    INZI 640x240 110.0-110.0fps
+                    INZI 640x240 60.0-60.0fps
+                    INZI 640x240 30.0-30.0fps
+                    INZI 640x240 15.0-15.0fps
+                    INZI 640x240 5.0-5.0fps
+                    INZI 640x240 2.0-2.0fps
+                    INVR 640x480 60.0-60.0fps
+                    INVR 640x480 30.0-30.0fps
+                    INVR 640x480 15.0-15.0fps
+                    INVR 640x480 5.0-5.0fps
+                    INVR 640x480 2.0-2.0fps
+                    INVR 640x240 110.0-110.0fps
+                    INVR 640x240 60.0-60.0fps
+                    INVR 640x240 30.0-30.0fps
+                    INVR 640x240 15.0-15.0fps
+                    INVR 640x240 5.0-5.0fps
+                    INVR 640x240 2.0-2.0fps
+                    INRI 640x480 60.0-60.0fps
+                    INRI 640x480 30.0-30.0fps
+                    INRI 640x480 15.0-15.0fps
+                    INRI 640x480 5.0-5.0fps
+                    INRI 640x480 2.0-2.0fps
+                    INRI 640x240 110.0-110.0fps
+                    INRI 640x240 60.0-60.0fps
+                    INRI 640x240 30.0-30.0fps
+                    INRI 640x240 15.0-15.0fps
+                    INRI 640x240 5.0-5.0fps
+                    INRI 640x240 2.0-2.0fps
+                    INVI 640x480 300.0-300.0fps
+                    INVI 640x480 240.0-240.0fps
+                    INVI 640x480 120.0-120.0fps
+                    INVI 640x480 60.0-60.0fps
+                    INVI 640x480 30.0-30.0fps
+                    INVI 640x240 300.0-300.0fps
+                    INVI 640x240 240.0-240.0fps
+                    INVI 640x240 120.0-120.0fps
+                    INVI 640x240 60.0-60.0fps
+                    INVI 640x240 30.0-30.0fps
+                    RELI 640x480 400.0-400.0fps
+                    RELI 640x480 200.0-200.0fps
+                    RELI 640x480 120.0-120.0fps
+                    RELI 640x480 60.0-60.0fps
+        Audio Devices
+            Device: 1 (0x0001)
+                FriendlyName: Microphone Array (Creative VF0800)
+                SymbolicLink: {0.0.1.00000000}.{542847b4-0f26-4d3f-8915-0caa2b208655}
+                Stream: 1 (0x0001)
+                    FLOAT 2-channels 48000Hz
+            Device: 2 (0x0002)
+                FriendlyName: Microphone (Realtek High Definition Audio)
+                SymbolicLink: {0.0.1.00000000}.{71579a22-1a14-40a0-b7dc-927393461575}
+                Stream: 1 (0x0001)
+                    FLOAT 2-channels 44100Hz
+
+======Page: Module======
+
+    Intel(R) RealSense(TM) SDK Runtime version v2, 32-bit Installed Modules
+        Intel(R) RealSense(TM) Depth Camera Manager
+    Intel(R) RealSense(TM) SDK Runtime version v5, 32-bit Installed Modules
+        3D Capture, 3D Reconstruction
+        User Segmentation
+        Blob/Contour Extraction Module
+        Video Capture (Media Foundation)
+        SDK Core Library
+        FCT Emotion Recognition
+        Enhanced Photography Module
+        Face 2D/3D Analysis (Intel)
+        Hand Module
+        Telemetry LR
+        Logger
+        Mask Programming Utility (1)
+        Mask Programming Utility (2)
+        Audio Source (Media Foundation)
+        Capture Programming Utility
+        Pipeline Programming Utility
+        Power Manager
+        Scene Perception
+        TouchlessController
+        Metaio Object Tracking and Recognition
+    Intel(R) RealSense(TM) SDK Runtime version v2, 64-bit Installed Modules
+        Intel(R) RealSense(TM) Depth Camera Manager
+    Intel(R) RealSense(TM) SDK Runtime version v5, 64-bit Installed Modules
+        3D Capture, 3D Reconstruction
+        User Segmentation
+        Blob/Contour Extraction Module
+        Video Capture (Media Foundation)
+        SDK Core Library
+        FCT Emotion Recognition
+        Enhanced Photography Module
+        Face 2D/3D Analysis (Intel)
+        Hand Module
+        Telemetry LR
+        Logger
+        Mask Programming Utility (1)
+        Mask Programming Utility (2)
+        Audio Source (Media Foundation)
+        Capture Programming Utility
+        Pipeline Programming Utility
+        Power Manager
+        Scene Perception
+        TouchlessController
+        Metaio Object Tracking and Recognition
+
+======Page: Installation======
+
+
+======Page: Logging======
+
+
+======Page: Version======
+
+mshtml:<style type="text/css">
+p,ul{font-size:12px;font-family:sans-serif}
+</style>
+<p>SDK and components versions:<ul>
+<li>      Intel(R) RealSense(TM) SDK
+     5.0.3.7777</li>
+<li>      Intel(R) RealSense(TM) Depth Camera Manager
+     1.3.20.55679</li>
+<li>      Intel(R) RealSense(TM) 3D Camera
+     2640</li>
+</ul></p>
+<br><p>Update available at <a href="      http://www.intel.com/realsense
+    ">      Intel Realsense Portal
+    </a>:<ul>
+<li>      Intel(R) RealSense(TM) SDK 2014 Runtime Gold
+           3.1.0.25181
+    </li>
+</ul></p>
+

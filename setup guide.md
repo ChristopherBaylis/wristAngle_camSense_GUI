@@ -1,27 +1,45 @@
+This project leverages the follwing technologies
+
+* Intel RealSense
+* Qt
+
+Intel RealSense SDK R3 V5.0.3.7777 (5.0.3.187777) was used and had the following system requirements:
+
+* Hardware requirements:
+    * 4th generation Intel® Core™ processors based on the Intel microarchitecture code name Haswell
+    * 8GB free hard disk space
+    * Intel® RealSense™ 3D camera (required to connect to a USB* 3 port)
+* Software requirements:
+    * Microsoft* Windows 8.1 OS 64-bit
+    * Microsoft Visual Studio* 2010-2013 with the latest service pack
+
 This project was developed **June-Jully 2015** using:
 
 * Development Environment
     * Intel RealSense SDK R3 V5.0.3.7777 (5.0.3.187777)
     * Visual Studio 2013
     * Qt 5.4.2 with VS Add-In 1.2.4
-* Computer (Acer TravelMate|P)
+* Computer (Acer travelmate p645 v4da2)
     * Intel(R) Core i5-4210U CPU @ 1.70GHz 2.40 GHz
     * Windows 8.1 Enterprise (6.2.9200)
 * Camera
     * Intel® RealSense™Develper Kit Camera (F200) (Creative VF0800)
     * "Intel RealSense Depth Camera Manager". F200 DCM V1.2 Build 1.3.20.55679
 
+You can see more information on the development machines specs in the output of the RSSDK Information Viewer output file DevelopmentMachin_SDKViewerSpecs.TXT
+
 **Important note:** RSSDK R3 appears to be relativly mature with many powerfull functions and abillities. However things appear to be changing at a fairly regular interval. This docuemt is accurate within the context of the above specification and at the date of writing.
 
 #Quickstart guide
 
-1. Install Intel RealSense Depth Camera Manager 
-2. Install RSSDK
-3. Install Visual Studio 2013
-4. Install Qt 5
-5. Install Qt 5 Visual Studio 2013 Add-in
-6. Add RSSDK property sheet to project
-7. Compile and run 
+1. Check the system requirments and compatible software
+2. Install Intel RealSense Depth Camera Manager 
+3. Install RSSDK
+4. Install Visual Studio 2013
+5. Install Qt 5
+6. Install Qt 5 Visual Studio 2013 Add-in
+7. Add RSSDK property sheet to project
+8. Compile and run 
 
 #Environment setup
 
