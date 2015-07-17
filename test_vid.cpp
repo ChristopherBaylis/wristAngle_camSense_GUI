@@ -7,6 +7,8 @@ test_vid::test_vid(int l_height, int l_width)
 	width = l_width - 10;
 
 	dataYet = false;
+
+	g_image2 = new QImage(640, 480, QImage::Format_RGB32);
 }
 
 QRectF test_vid::boundingRect() const
@@ -17,8 +19,10 @@ QRectF test_vid::boundingRect() const
 void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
 	QRectF rec = boundingRect();
-
-	QImage image2(width, height, QImage::Format_RGB32);
+	QImage *image2;
+	image2 = g_image2;
+	//QImage image2(width, height, QImage::Format_RGB32);
+	//image2(width, height, QImage::Format_RGB32);
 	QRgb value2;
 
 	if (dataYet)
@@ -35,7 +39,7 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 				{
 					case 'c':
 					{
-						image2.setPixel(x, y, thisPixel);
+								image2->setPixel(x, y, thisPixel);
 						break;
 					}
 					case 'd':
@@ -46,12 +50,12 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 							val = (255 - (thisPixel / 4)) - 50;
 
 						value2 = qRgb(val,val,val);
-						image2.setPixel(x, y, value2);
+						image2->setPixel(x, y, value2);
 					}
 				}
 			}
 		}
-		painter->drawImage(rec, image2);
+		painter->drawImage(rec, *image2);
 
 		
 		int x, y;
@@ -89,7 +93,7 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 		painter->drawImage(rec, image);
 	}
 
-		
+	//image2.~QImage();
 	
 	
 }

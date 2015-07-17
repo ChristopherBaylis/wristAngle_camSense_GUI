@@ -38,7 +38,11 @@ sample_layout_1::sample_layout_1(QWidget *parent)
 
 void sample_layout_1::debugDisplay(QString text)
 {
-	ui.debugOut->appendPlainText(text);
+	ui.debugOut->moveCursor(QTextCursor::End);
+	ui.debugOut->insertPlainText(text);
+	ui.debugOut->moveCursor(QTextCursor::End);
+
+	//ui.debugOut->appendPlainText(text);
 }
 
 void sample_layout_1::calculateAngles(float O, float A, float &theta, float &thetaDegrees){

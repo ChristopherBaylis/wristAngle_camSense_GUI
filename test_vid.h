@@ -27,6 +27,8 @@ protected:
 	int height, width;
 
 	bool dataYet;
+
+	QImage *g_image2;
 };
 
 #endif // TEST_VID_H
