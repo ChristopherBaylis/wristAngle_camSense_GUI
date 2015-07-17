@@ -166,6 +166,7 @@
     </ClCompile>
     <ClCompile Include="hand_status.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="realsense_opencv_tools.cpp" />
     <ClCompile Include="sample_layout_1.cpp" />
     <ClCompile Include="test_vid.cpp" />
   </ItemGroup>
@@ -174,6 +175,7 @@
     <ClInclude Include="GeneratedFiles\ui_sample_layout_1.h" />
     <ClInclude Include="handData_Definitions.h" />
     <ClInclude Include="hand_status.h" />
+    <ClInclude Include="realsense_opencv_tools.h" />
     <ClInclude Include="test_vid.h" />
     <CustomBuild Include="sample_layout_1.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>

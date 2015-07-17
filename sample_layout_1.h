@@ -34,7 +34,13 @@
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include "opencv2/opencv.hpp"
+
 ////
+
+//custome
+#include "realsense_opencv_tools.h"
+//
 
 class sample_layout_1 : public QMainWindow
 {
@@ -509,6 +515,40 @@ private:
 							delete[] g_colordata;
 						*/
 
+						///////////////////////////
+						//  OPEN CV             ///
+						///////////////////////////
+							
+							PXCImage *color;
+							color = sample->color;
+
+							cv::Mat frameColor = PXCImageDataToCVMat(color);
+
+							// Storage for blobs
+							std::vector<cv::KeyPoint> keypoints;
+
+							// Set up detector with params
+							cv::SimpleBlobDetector detector;
+
+							// Detect blobs
+							//detector.detect(frameColor, keypoints);
+
+							// Draw detected blobs as red circles.
+							// DrawMatchesFlags::DRAW_RICH_KEYPOINTS flag ensures
+							// the size of the circle corresponds to the size of blob
+
+							cv::Mat im_with_keypoints;
+							cv::drawKeypoints(frameColor, keypoints, im_with_keypoints, cv::Scalar(0, 0, 255), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+
+							cv::imshow("Display window", im_with_keypoints); // Show our image inside it.
+
+							//At the end, release all the used memory
+							//color->ReleaseAccess(data);
+							//delete data;
+							
+						///////////////////////////
+						//  END OPEN CV          //
+						///////////////////////////
 
 						} //end fram counter
 
@@ -871,62 +911,6 @@ private:
 			}*/
 		}
 
-		
-
-			
-		
-
-			
-
-
-
-
-
-
-
-
-
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif // SAMPLE_LAYOUT_1_H
