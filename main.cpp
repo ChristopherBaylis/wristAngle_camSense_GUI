@@ -1,4 +1,5 @@
 #include "sample_layout_1.h"
+
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])

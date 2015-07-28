@@ -3,6 +3,10 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_sample_layout_1.h"
+#include "empty_window.h"
+#include "mydialog.h"
+#include "HSV_Selector.h"
+
 
 #include <QTableWidget>
 
@@ -35,8 +39,12 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include "opencv2/opencv.hpp"
+#include "cvBlob\cvBlob.h"
 
 ////
+
+#include <algorithm>
+#include <vector>
 
 //custome
 #include "realsense_opencv_tools.h"
@@ -64,6 +72,9 @@ public:
 private:
 	Ui::sample_layout_1Class ui;
 
+	myDialog *mydialog;
+	HSV_Selector *HSV_SelectorInst;
+
 	QGraphicsScene *scene_LeftHand;
 	QGraphicsScene *scene_RightHand;
 	AnalogDial *leftHand_Flexation;
@@ -79,6 +90,8 @@ private:
 	void sample_layout_1::calculateAngles(float O, float A, float &theta, float &thetaDegrees);
 	void sample_layout_1::printAngles(int label, float O, float A, float theta, float thetaDegrees);
 	void sample_layout_1::calculateAnglesAndPrint(int label, float O, float A, float *theta, float thetaDegrees);
+
+	int Hmin, Smin, Vmin, Hmax, Smax, Vmax;
 
 	// begin new code
 	public slots:
@@ -102,8 +115,22 @@ private:
 				g_session = NULL;
 			}
 		}
+
+		bool sortbypty(const KeyPoint &lhs, const KeyPoint &rhs)
+		{
+			return lhs.pt.y < rhs.pt.y;
+		}
 		
 		void on_startCamera_clicked() {
+
+			Hmin = 32;
+			Smin = 116;
+			Vmin = 53;
+
+			Hmax = 61;
+			Smax = 255;
+			Vmax = 218;
+
 			char str[350];
 			g_stop = FALSE;
 
@@ -518,20 +545,58 @@ private:
 						///////////////////////////
 						//  OPEN CV             ///
 						///////////////////////////
+
 							
+							using namespace cv;
 							PXCImage *color;
 							color = sample->color;
 
 							cv::Mat frameColor = PXCImageDataToCVMat(color);
 
+							const int h = 480;
+							const int w = 640;
+							cv::Mat mat_hsvframe, threshy;
+
+							cv::cvtColor(frameColor, mat_hsvframe, CV_BGR2HSV);
+
+							inRange(mat_hsvframe, cv::Scalar(Hmin, Smin, Vmin), cv::Scalar(Hmax, Smax, Vmax), threshy);
+							//unsigned int result = cvb::cvLabel(threshy, labelImg, blobs);
+							//invert
+							bitwise_not(threshy, threshy);
+								
+							// Setup SimpleBlobDetector parameters.
+							SimpleBlobDetector::Params params;
+
+							// Change thresholds
+							params.minThreshold = 1;
+							params.maxThreshold = 200;
+
+							// Filter by Area.
+							params.filterByArea = true;
+							params.minArea = 15;
+
+							// Filter by Circularity
+							params.filterByCircularity = true;
+							params.minCircularity = 0.1;
+
+							// Filter by Convexity
+							params.filterByConvexity = true;
+							params.minConvexity = 0.01;
+
+							// Filter by Inertia
+							params.filterByInertia = true;
+							params.minInertiaRatio = 0.01;
+
+
 							// Storage for blobs
-							std::vector<cv::KeyPoint> keypoints;
+							vector<KeyPoint> keypoints;
+
 
 							// Set up detector with params
-							cv::SimpleBlobDetector detector;
+							SimpleBlobDetector detector(params);
 
 							// Detect blobs
-							//detector.detect(frameColor, keypoints);
+							detector.detect(threshy, keypoints);
 
 							// Draw detected blobs as red circles.
 							// DrawMatchesFlags::DRAW_RICH_KEYPOINTS flag ensures
@@ -540,11 +605,21 @@ private:
 							cv::Mat im_with_keypoints;
 							cv::drawKeypoints(frameColor, keypoints, im_with_keypoints, cv::Scalar(0, 0, 255), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 
-							cv::imshow("Display window", im_with_keypoints); // Show our image inside it.
-
+							cv::imshow("im_with_keypoints", im_with_keypoints); // Show our image inside it.
+							
+							
+							cv::imshow("threshy", threshy);
 							//At the end, release all the used memory
 							//color->ReleaseAccess(data);
 							//delete data;
+							sort(keypoints.begin(), keypoints.end(), sortbypty);
+							for (vector<KeyPoint>::iterator it = keypoints.begin(); it != keypoints.end(); ++it)
+							{
+								
+								KeyPoint k = *it;
+								sprintf(str, "it %d size %d pt.xF'%f' pt.yF'%f'\n", &it, keypoints.size(), k.pt.x, k.pt.y);
+									debugDisplay(str);
+							}
 							
 						///////////////////////////
 						//  END OPEN CV          //
@@ -567,7 +642,10 @@ private:
 			releaseAll();
 		} // End startCamera
 
-		int on_btnX_clicked()
+
+		
+
+		void on_btnX_clicked()
 		{
 			/*QString fileName = "vid\\";
 			fileName.append(ui.te_recordFile->toPlainText());
@@ -575,19 +653,19 @@ private:
 			// TODO: Check valid and writable
 			RecordORPlayback(fileName, true);*/
 
-			cv::Mat image;
-			image = cv::imread("C:\\Users\\Christopher Baylis\\Desktop\\tmp.png", cv::IMREAD_COLOR);
+			//empty_window w;
+			
+			//w.show();
+			/*myDialog d;
+			d.setModal(true);
+			d.exec();*/
+			static int x = 5;
+			mydialog = new myDialog(&x, this);
+			mydialog->show();
 
-			if (!image.data) // Check for invalid input
-			{
-				debugDisplay("Could not open or find the image\n");
-				return -1;
-			}
-
-			cv::namedWindow("Display window", cv::WINDOW_AUTOSIZE); // Create a window for display.
-			imshow("Display window", image); // Show our image inside it.
-
-			cv::waitKey(0); // Wait for a keystroke in the window
+			HSV_SelectorInst = new HSV_Selector(&Hmin, &Smin, &Vmin, &Hmax, &Smax, &Vmax, this);
+			HSV_SelectorInst->show();
+			
 		}
 
 		void RecordORPlayback(QString QS_fileName, bool record)

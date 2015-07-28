@@ -25,10 +25,14 @@
 [Hand Tracking and Recognition With OpenCV]: http://simena86.github.io/blog/2013/08/12/hand-tracking-and-recognition-with-opencv/
 
 
-OpenCV settup possible errors
-"The application was unable to start correctly (0xc000007b). Click OK to close the application." 
+#OpenCV settup possible errors
+"The application was unable to start correctly (0xc000007b). Click OK to close the application." //opencv dir 32/64
 "the program can't start because msvcp110d.dll is missing"
 "error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'"
 "error LNK1104: cannot open file 'opencv_calib3d249.lib'"
 "error C2871: 'cv' : a namespace with this name does not exist	"
 "the program can't start because opencv_core2411d.dll is missing"
+
+#Qt
+http://www.qtcentre.org/threads/47668-Multiple-forms-inside-a-project
+multiple dialoges
