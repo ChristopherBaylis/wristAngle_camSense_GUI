@@ -89,6 +89,12 @@
     <ClCompile Include="GeneratedFiles\Release\moc_hsv_selector.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="wrist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="sample_layout_1.qrc">
@@ -149,6 +155,15 @@
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_HSV_Selector.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wrist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_painter.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

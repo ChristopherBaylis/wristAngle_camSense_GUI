@@ -27,6 +27,7 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 
 	if (dataYet)
 	{
+		dataYet = false;
 		for (int x = 0; x < width; x++)
 		{
 			for (int y = 0; y < height; y++)
@@ -57,24 +58,17 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 		}
 		painter->drawImage(rec, *image2);
 
-		
-		int x, y;
-		for (int i = 0; i < nHands; i++)
+		if (g_points.size() > 0)
 		{
-			if (jd[i][14] == 1)
-				painter->setBrush(Qt::green);
-			else if (jd[i][14] == 2)
-				painter->setBrush(Qt::blue);
-			else
-				painter->setBrush(Qt::black);
-			for (int j = 0; j < nPoints; j++)
+			QBrush blueBrush(Qt::blue);
+			painter->setBrush(blueBrush);
+			std::vector < QString > label = {"A", "B", "C", "D", "E", "F"};
+			for (int i = 0; i < g_points.size(); i++)
 			{
-				x = jd[i][j*2+0];
-				y = jd[i][j*2+1];
-				painter->drawEllipse(x-3, y-3, 6, 6);
+				painter->drawEllipse((int)g_points[i].x, (int)g_points[i].y, 5, 5);
+				painter->drawText(g_points.at(i).x, g_points.at(i).y, label.at(i));
 			}
 		}
-		
 	}
 	else
 	{
@@ -98,14 +92,23 @@ void test_vid::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 	
 }
 
-void test_vid::updateAndPaint(int **arr, float  **arr2, int arrSize, int arr2Size, char type)
+void test_vid::updateAndPaint(int **arr, char type, std::vector<PXCPointF32> points)
 {
+	// Get image data
 	dataYet = true;
-	dd = arr;
-	jd = arr2;
-	nHands = arrSize;
-	nPoints = arr2Size;
+	//TODO: optimize
+	for (int x = 0; x < 640; x++)
+	{
+		for (int y = 0; y < 480; y++)
+		{
+			dd[x][y] = arr[x][y];
+		}
+	}
 	g_type = type;
 
+	// get point data
+	g_points = points;
+
+	//Paint it (calls paint())
 	update();
 }

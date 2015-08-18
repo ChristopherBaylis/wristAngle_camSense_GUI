@@ -32,6 +32,10 @@ sample_layout_1::sample_layout_1(QWidget *parent)
 	ui.QGV_Video_color->setScene(scene_Video_color);
 	tv_vid_color = new test_vid(ui.QGV_Video_color->height(), ui.QGV_Video_color->width());
 	scene_Video_color->addItem(tv_vid_color);
+
+	HSV_SelectorInst = new HSV_Selector(&blobHSVrange_1, &blobHSVrange_2, this);
+
+	
 }
 
 // PRIVATE FUNCTIONS

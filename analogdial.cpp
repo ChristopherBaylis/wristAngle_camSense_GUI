@@ -35,6 +35,8 @@ void AnalogDial::paint(QPainter *painter, const QStyleOptionGraphicsItem *option
 	painter->drawPie(0, 0, rec.width(), rec.height()*2, offset * 16, totalDegrees * 16);
 	// Draw needle
 	painter->drawLine(cx, cy, (r*cos(needleRadians)) + cx, (r*sin(needleRadians)) + cy);
+	QString my_formatted_string = QString("Radian %1 Deg %2").arg(QString::number(thetaRad), QString::number(thetaDeg));
+	painter->drawText(20, 20, my_formatted_string);
 }
 
 float AnalogDial::degreesToRadians(float degrees)

@@ -4,6 +4,8 @@
 #include <QDialog>
 #include "ui_HSV_Selector.h"
 
+#include "myDocument.h"
+
 class HSV_Selector : public QDialog
 {
 	Q_OBJECT
@@ -17,8 +19,10 @@ public slots:
 	void f_Vmax(int);
 
 public:
-	HSV_Selector(int *Hmin, int *Smin, int *Vmin, int *Hmax, int *Smax, int *Vmax, QWidget *parent = 0);
+	HSV_Selector(HSV_Range *range_1, HSV_Range *range_2 , QWidget *parent = 0);
 	~HSV_Selector();
+
+	void update_values();
 
 private:
 	Ui::Dialog ui;
